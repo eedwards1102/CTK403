@@ -1,0 +1,108 @@
+#wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(black, grey);
+    color: white;
+}
+h1{
+    color: #ffee00;
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: 15%;
+}
+h2{
+    color: #ffee00;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+h3{
+    color: #ffee00;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    max-width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 1.25;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffee00;
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: #ff9500;
+}
+
+.what{
+    max-width: 450px;
+    line-height: 1.25;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 20%;
+}
+.credit{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px auto 10%;
+}
+.image{
+    border: 2px solid #ffee00;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.iconsection{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10% auto 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.iconsection h3{
+    font-family:'Times New Roman', Times, serif;
+}
+.icons{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.icons a{
+    display: inline-block;
+    margin: 0 20px 5%;
+}
+
+.section1{
+    display: flex;
+    gap: 40px;
+}
+
+.para{
+    flex: 1;
+    display: block;
+}
+
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);  
+  white-space: nowrap;
+  border: 0;
+}
