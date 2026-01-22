@@ -1,0 +1,40 @@
+img{
+    margin: 5% auto;
+    width: 300px;
+}
+@keyframes water-ani{
+    0%{border-color: blue;}
+    25%{border-color: darkblue;}
+    50%{border-color: black;}
+    75%{border-color: darkblue;}
+    100%{border-color: blue;}
+}
+.water{
+border: 5px solid;
+border-radius: 5px;
+animation: water-ani 5s linear infinite;
+}
+.patch{
+    transition: all 0.5s;
+}
+.patch:hover{
+    filter: blur(10px);
+}
+@keyframes icecream-ani{
+    0%{filter:brightness(100%);}
+    100%{filter:brightness(200%);}
+}
+.icecream{
+    transition: all 0.5s;
+    animation: icecream-ani 10s linear infinite;
+}
+body{
+        animation: body-ani 20s linear infinite;
+}
+@keyframes body-ani{
+        0%   {background-color: lightsalmon;}
+        25%  {background-color:  lightyellow;}
+        50%  {background-color: lightgreen;}
+        75%  {background-color: lightyellow;}
+        100% {background-color: lightsalmon;}
+    }
