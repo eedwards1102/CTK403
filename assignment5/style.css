@@ -225,7 +225,8 @@ nav li a:focus {
         font-size: 40px;
     }
     nav li a{
-        font-size: 15px;
+        font-size: 14px;
+        padding: 5px 0;
     }
     main .mainabout{
       width:90%;
@@ -235,6 +236,7 @@ nav li a:focus {
         display: grid;
     }
     h2{font-size: 18px;}
+    h3{font-size: 15px;}
 .aboutprofile{
     width: 80%;}
 }
